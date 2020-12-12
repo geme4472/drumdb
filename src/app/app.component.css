@@ -1,0 +1,19 @@
+p {
+  font-family: Lato;
+}
+
+.layout { display:flex }
+
+.leftContainer, .container {
+  padding: 2rem;
+}
+
+.leftContainer {
+  background-color: #efefef;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
