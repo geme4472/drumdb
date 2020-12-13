@@ -1,1 +1,10 @@
-<p>menu works!</p>
+<h2>API Menu</h2>
+<div class="mb-3 font-weight-light">Select a menu item below to test the DW Drums API</div>
+
+<div *ngFor="let menuItem of menuItems">
+    <div>
+      <a [title]="menuItem.description" [routerLink]="['/query', menuItem.op]" >
+        {{ menuItem.name }}
+      </a>
+    </div>  
+</div>

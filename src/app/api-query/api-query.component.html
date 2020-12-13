@@ -1,1 +1,22 @@
-<p>api-query works!</p>
+<h2>{{description}}</h2>
+    
+<div *ngFor="let drum of drums">
+
+    <div class="card m-3" style="min-width: 400px;">
+        <h5 class="card-header"> {{drum.series}} : {{drum.pieces}} piece set     
+            <div class="float-right">
+                <a class="btn btn-primary btn-sm mr-1" [routerLink]="['/form', drum._id]">edit</a>
+                <a (click)="deleteDrum(drum._id)" class="btn btn-primary btn-sm" href="#">delete</a>    
+            </div>
+        </h5>
+        <div class="card-body" style="text-align: left;">
+            <div>Color: {{drum.color}}</div>
+            <div>Configuration (sizes): {{drum.configuration}}</div>
+            <div>Style: {{drum.style}}</div>
+            <div>Price: ${{drum.price}}</div>
+        </div>
+    </div>
+
+</div>
+
+

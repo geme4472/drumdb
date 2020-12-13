@@ -1,38 +1,38 @@
 export const menuItems = [
   {
-    name: 'Team Roster',
+    name: 'Entire Catalog',
     op: '',
-    description: 'All players'
+    description: 'All drum sets'
   },
   {
-    name: 'Most Touchdown Passes',
-    op: 'tdMax',
-    description: 'Querying the database for the most passing TDs on the team'
+    name: 'Most Expensive',
+    op: 'expensiveMax',
+    description: 'Querying the database for the most expensive drum set'
   },
   {
-    name: 'Most Receptions',
-    op: 'catchesMax',
-    description: 'Querying the database for the most catches on the team'
+    name: 'Most Drums',
+    op: 'drumsMax',
+    description: 'Querying the database for the set with the most drums'
   },
   {
-    name: 'Most Rushing yards',
-    op: 'rushMax',
-    description: 'Querying the database for the most passing TDs on the team'
+    name: 'Least Expensive',
+    op: 'expensiveMin',
+    description: 'Querying the database for the least expensive drum set'
   },
   {
-    name: 'Least Rushing yards',
-    op: 'rushMin',
+    name: 'Fewest Drums',
+    op: 'drumsMin',
     description: 'Querying the database for the fewest rushing yards on the team'
   },
   {
-    name: 'Most Sacks',
-    op: 'sackMax',
-    description: 'Querying the database for the player with the most sacks'
+    name: 'Jazz Drum Sets',
+    op: 'jazz',
+    description: 'Querying the database for jazz drum sets'
   },
   {
-    name: 'Missed Field Goals',
-    op: 'fgMax',
-    description: 'Querying the database for the player with the most missed field goals'
+    name: 'Rock Drum Sets',
+    op: 'rock',
+    description: 'Querying the database for rock drum sets'
   }
 ];
 
